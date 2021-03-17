@@ -8,3 +8,8 @@ navbarToggler.addEventListener('click', e => {
         }
     }
 });
+
+// Hamburger
+const hamburgerEffect = x => {
+    x.classList.toggle("change");
+}
