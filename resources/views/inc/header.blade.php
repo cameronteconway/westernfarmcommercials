@@ -9,7 +9,7 @@
     </div>
 </nav>
 
-<div class="container d-none d-lg-block contact-logo mt-5 py-3">
+<div class="container d-none d-lg-block contact-logo py-3">
     <div class="row">
         <div class="col-md-5">
             <p class="nav-contact-detail email"><span>Email:</span> <a href="#">devlin@westonfc.co.uk</a></p>

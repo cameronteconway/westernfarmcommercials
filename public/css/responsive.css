@@ -1,0 +1,102 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .banner-section .banner-img .slogan h2 {
+        left: 27%;
+        right: 30%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #main .banner-section .banner-img {
+        height: 400px;
+    }
+    .banner-section .banner-img .slogan h2 {
+        font-size: 70px;
+        line-height: 70px;
+        left: 30%;
+        right: 30%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .testimonial-section .testimonials .testimonial {
+        padding: 10px 40px 10px 70px;
+    }
+    .testimonial-section .testimonials .testimonial p {
+        font-size: 24px;
+    }
+    .testimonial-section .testimonials .testimonial .quote {
+        height: 20px;
+        top: 10px;
+        left: 35px;
+    }
+    footer img {
+        height: 100px;
+        width: auto;
+        margin-bottom: 25px;
+    }
+    footer p {
+        font-size: 19px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    nav .navbar-brand img {
+        height: 100px;
+        width: auto;
+    }
+    #nav-icon {
+        display: none;
+    }
+    nav .navbar-nav a:nth-last-child(1) {
+        border: 2px solid var(--primary);
+        color: var(--primary) !important;
+        margin-bottom: 5px;
+    }
+    nav .navbar-nav a {
+        margin: 0 10px;
+    }
+    .section {
+        margin-top: 20px;
+    }
+    #main .banner-section {
+        margin-top: 0px;
+    }
+    .banner-section .banner-img .slogan h2 {
+        font-size: 80px;
+        line-height: 80px;
+        left: 30%;
+        right: 30%;
+    }
+    #main .banner-section .banner-img {
+        height: 490px;
+    }
+    .card .card-body a {
+        background-color: var(--primary);
+        border: none;
+        color: white;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .contact-logo img {
+        left: -80px;
+    }
+    .contact-logo .call {
+        right: 80px;
+    }
+    .contact-logo .email {
+        left: 80px;
+    }
+    #main .banner-section .banner-img {
+        height: 650px;
+    }
+    .banner-section .banner-img .slogan h2 {
+        font-size: 100px;
+        line-height: 100px;
+        left: 35%;
+        right: 35%;
+    }
+ }

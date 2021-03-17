@@ -8,7 +8,7 @@
         @include('inc/header')
     </header>
 
-    <div id="main" role="main" class="container">
+    <div id="main" role="main">
         @yield('content')
     </div>
 
