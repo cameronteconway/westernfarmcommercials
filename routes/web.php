@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
+// About
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
 // Services
 Route::get('/services', function() {
     return view('pages.services');
