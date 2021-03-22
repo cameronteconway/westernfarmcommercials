@@ -15,7 +15,7 @@
             <p class="nav-contact-detail email"><span>Email:</span> <a href="#">devlin@westonfc.co.uk</a></p>
         </div>
         <div class="col-md-2">
-            <a href="{{ url('/') }}"><img src="{{ asset('images/westernfc_logo.svg') }}"></a>
+            <a href="{{ url('/') }}"><img src="{{ asset('images/westernfc_logo.svg') }}" alt="Western Farm Commercials Logo"></a>
         </div>
         <div class="col-md-5">
             <p class="nav-contact-detail call"><span>Telephone:</span> <a href="#">+4478185 09257</a></p>

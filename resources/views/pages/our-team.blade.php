@@ -17,7 +17,7 @@
             <div class="card h-100">
                 <img class="card-img-top" src="{{ asset('images/team/devlin.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
-                    <h4 class="card-title">Devlin</h4>
+                    <span class="card-title">Devlin</span>
                     <p class="card-text">Workshop Manager</p>
                 </div>
             </div>
@@ -26,7 +26,7 @@
             <div class="card h-100">
                 <img class="card-img-top" src="{{ asset('images/team/kieffer.jpg') }}" alt="Three employees infront of company van.">
                 <div class="card-body">
-                    <h4 class="card-title">Kieffer</h4>
+                    <span class="card-title">Kieffer</span>
                     <p class="card-text">Workshop Technician</p>
                 </div>
             </div>
@@ -35,7 +35,7 @@
             <div class="card h-100">
                 <img class="card-img-top" src="{{ asset('images/team/ashley.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
-                    <h4 class="card-title">Ashley</h4>
+                    <span class="card-title">Ashley</span>
                     <p class="card-text">Workshop Technician</p>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             <div class="card h-100">
                 <img class="card-img-top" src="{{ asset('images/team/daniel.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
-                    <h4 class="card-title">Daniel</h4>
+                    <span class="card-title">Daniel</span>
                     <p class="card-text">Workshop Technician</p>
                 </div>
             </div>
@@ -53,7 +53,7 @@
             <div class="card h-100">
                 <img class="card-img-top" src="{{ asset('images/team/marc.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
-                    <h4 class="card-title">Marc</h4>
+                    <span class="card-title">Marc</span>
                     <p class="card-text">Workshop Technician</p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="card h-100">
                 <img class="card-img-top" src="{{ asset('images/team/gary.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
-                    <h4 class="card-title">Gary</h4>
+                    <span class="card-title">Gary</span>
                     <p class="card-text">Workshop Technician</p>
                 </div>
             </div>

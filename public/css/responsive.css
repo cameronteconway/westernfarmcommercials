@@ -4,6 +4,11 @@
         left: 27%;
         right: 30%;
     }
+    /* Our Team */
+    .our-team-cards .card .card-img-top {
+        height: 240px;
+        object-position: 0% 30%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -37,6 +42,11 @@
     }
     footer p {
         font-size: 19px;
+    }
+    /* Our Team */
+    .our-team-cards .card .card-img-top {
+        height: 300px;
+        object-position: 0% 30%;
     }
 }
 
@@ -76,6 +86,11 @@
         background-color: var(--primary);
         border: none;
         color: white;
+    }
+    /* Our Team */
+    .our-team-cards .card .card-img-top {
+        height: 220px;
+        object-position: 0% 30%;
     }
  }
 

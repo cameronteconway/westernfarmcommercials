@@ -20,6 +20,9 @@ body {
 .page-intro p {
     font-size: 1.2rem;
 }
+#main {
+    margin-top: 96px;
+}
 
 
 /* Desktop Navbar */
@@ -129,7 +132,7 @@ nav .navbar-nav a:nth-last-child(1) {
 
 /* Banner */
 #main .banner-section {
-    margin-top: 96px;
+    /* margin-top: 96px; */
 }
 #main .banner-section .banner-img {
     background-repeat: no-repeat;
@@ -199,11 +202,70 @@ nav .navbar-nav a:nth-last-child(1) {
     border-radius: 0px 0px 7.5px 7.5px;
 }
 .our-team-cards .card .card-img-top {
-    height: 200px;
+    height: 320px;
     width: 100%;
     object-fit: cover;
     border-radius: 0;
 }
+.our-team-cards .card .card-body {
+    padding: 15px 20px 20px 20px;
+}
 .our-team-cards .card .card-body .card-title {
     color: var(--primary);
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+/* Contact Us */
+#main form {
+    color: #000000;
+}
+#main form input {
+    /* border-radius: 0px; */
+    border: 1px solid var(--primary);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+#main form input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#main form textarea {
+    /* border-radius: 0px; */
+    border: 1px solid var(--primary);
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
+#main form textarea:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#main form button {
+    background: var(--primary);
+    border-radius: 0px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    border-top: 5px solid var(--primary);
+}
+footer img {
+    height: 75px;
+    width: auto;
+    margin-bottom: 25px;
+}
+footer p {
+    padding: 0;
+    font-size: 15px;
+}
+footer a {
+    color: var(--dark-text);
+}
+footer a:focus, footer a:hover {
+    color: var(--dark-text);
+    text-decoration: none;
 }
