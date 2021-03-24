@@ -12,25 +12,57 @@
         </div>
     </div>
 
+    <!-- Success -->
+    @if(Session::has('success'))
+        <div class="alert alert-success">
+            {{Session::get('success')}}
+        </div>
+    @endif
+
+    <!-- Errors -->
+    @if ($errors->any())
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        </div>
+    @endif
+
     <div class="row">
         <div class="col-md-12">
-            <form class="pb-5">
+            <form method="POST" action="{{ route('contact.store') }}" class="pb-5">
 
                 @csrf
 
                 <div class="form-group">
                     <label for="full-name">Full Name *</label>
-                    <input type="text" name="fullName" class="form-control" id="full-name"  placeholder="Enter full name" required>
+                    <input type="text" name="name" class="form-control" id="full-name"  placeholder="Enter full name" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email-address">Email address *</label>
-                    <input type="email" name="emailAddress" class="form-control" id="email-address" placeholder="Enter email" required>
+                    <input type="email" name="email" class="form-control" id="email-address" placeholder="Enter email" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="comment">Message *</label>
-                    <textarea class="form-control" name="comment" id="comment" rows="3" placeholder="Enter message" required></textarea>
+                    <label for="phone">Phone</label>
+                    <input type="phone" name="phone" class="form-control" id="phone" placeholder="Enter phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="subject" name="subject" class="form-control" id="subject" placeholder="Enter subject of message" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea class="form-control" name="message" id="message" rows="3" placeholder="Enter message" required></textarea>
                 </div>
 
                 <div class="form-group">

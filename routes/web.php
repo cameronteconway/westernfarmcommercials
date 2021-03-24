@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactFormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,3 +68,5 @@ Route::get('/contact', function() {
 
     return view('pages.contact')->with("meta", $meta);
 });
+
+Route::post('/contact', [ContactFormController::class, 'handleContactForm'])->name('contact.store');
