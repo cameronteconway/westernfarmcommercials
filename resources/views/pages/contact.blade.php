@@ -19,7 +19,15 @@
         </div>
     @endif
 
-    <!-- Errors -->
+    <!-- Robot Failure -->
+    @if(Session::has('robotError'))
+        <div class="alert alert-danger">
+            {{Session::get('robotError')}}
+        </div>
+    @endif
+
+
+    <!-- Validation Errors -->
     @if ($errors->any())
         <div class="row">
             <div class="col-md-12">
@@ -52,7 +60,7 @@
 
                 <div class="form-group">
                     <label for="phone">Phone</label>
-                    <input type="phone" name="phone" class="form-control" id="phone" placeholder="Enter phone number" required>
+                    <input type="phone" name="phone" class="form-control" id="phone" placeholder="Enter phone number">
                 </div>
 
                 <div class="form-group">
