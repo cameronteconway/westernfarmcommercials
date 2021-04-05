@@ -17,4 +17,3 @@
 <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
 
 <title>Western Farm Commercials</title>
-

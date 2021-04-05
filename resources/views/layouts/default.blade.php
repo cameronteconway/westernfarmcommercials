@@ -3,6 +3,7 @@
 <head>
     @include('inc/head')
 </head>
+<body>
 
     <header>
         @include('inc/header')

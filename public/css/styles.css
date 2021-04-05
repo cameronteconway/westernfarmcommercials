@@ -10,6 +10,11 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Mobile nav spacing */
+#main {
+    padding-top: 96px;
+}
+
 /* General */
 .page-intro {
     padding: 20px 0;
@@ -129,7 +134,7 @@ nav .navbar-nav a:nth-last-child(1) {
 
 /* Banner */
 #main .banner-section {
-    margin-top: 96px;
+    /* margin-top: 96px; */
 }
 #main .banner-section .banner-img {
     background-repeat: no-repeat;
@@ -212,6 +217,20 @@ nav .navbar-nav a:nth-last-child(1) {
     font-size: 1.35rem;
     font-weight: 500;
     margin-bottom: 0.75rem;
+}
+
+/* Services */
+.service-details ul {
+    /* list-style-type: none; */
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.services-images {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+    /* border: 5px solid var(--primary); */
 }
 
 /* Contact Us */

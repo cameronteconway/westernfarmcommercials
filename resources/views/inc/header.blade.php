@@ -27,7 +27,7 @@
 <div class="d-block d-lg-none">
     <nav class="navbar fixed-top navbar-light navbar-mobile">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/westernfc_logo.svg') }}"></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/westernfc_logo.svg') }}" alt="Western Farm Commercials Logo"></a>
             <button id="nav-icon" class="navbar-toggler" type="button" onclick="hamburgerEffect(this)" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="bar1"></div>
                 <div class="bar2"></div>

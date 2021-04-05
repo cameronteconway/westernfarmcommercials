@@ -52,6 +52,9 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    #main {
+        padding-top: 0px;
+    }
     nav .navbar-brand img {
         height: 100px;
         width: auto;
@@ -91,6 +94,15 @@
     .our-team-cards .card .card-img-top {
         height: 220px;
         object-position: 0% 30%;
+    }
+    /* Services */
+    .service-details ul {
+        font-size: 17px;
+    }
+    .services-images {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
     }
  }
 
