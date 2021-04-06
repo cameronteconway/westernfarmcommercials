@@ -286,3 +286,9 @@ footer a:focus, footer a:hover {
     color: var(--dark-text);
     text-decoration: none;
 }
+
+
+/* Email */
+.email-template {
+    border: 5px solid red;
+}
