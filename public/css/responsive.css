@@ -41,7 +41,7 @@
         margin-bottom: 25px;
     }
     footer p {
-        font-size: 19px;
+        font-size: 15px;
     }
     /* Our Team */
     .our-team-cards .card .card-img-top {
@@ -100,9 +100,7 @@
         font-size: 17px;
     }
     .services-images {
-        height: 150px;
-        width: 100%;
-        object-fit: cover;
+        height: 180px;
     }
  }
 
@@ -125,5 +123,8 @@
         line-height: 100px;
         left: 35%;
         right: 35%;
+    }
+    .services-images {
+        height: 200px;
     }
  }

@@ -2,12 +2,25 @@
 
 @section('content')
 
+<div class="container d-none d-lg-block contact-logo py-3">
+    <div class="row">
+        <div class="col-md-5">
+            <p class="nav-contact-detail email"><span>Email:</span> <a href="#">devlin@westonfc.co.uk</a></p>
+        </div>
+        <div class="col-md-2">
+            <a href="{{ url('/') }}"><img src="{{ asset('images/westernfc_logo.svg') }}" alt="Western Farm Commercials Logo"></a>
+        </div>
+        <div class="col-md-5">
+            <p class="nav-contact-detail call"><span>Telephone:</span> <a href="#">078185 09257</a></p>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="page-intro">
                 <h1>Contact Us</h1>
-                <p></p>
             </div>
         </div>
     </div>
@@ -96,6 +109,17 @@
 
                 <button type="submit" class="btn">Submit</button>
             </form>
+        </div>
+    </div>
+
+    <div class="row d-block d-lg-none">
+        <div class="col-md-12">
+            <div class="find-us">
+                <h2>Where to find us?</h2>
+                <p>Western Farm Commercials, Plantation Road, Aslacton, Norfolk, NR15 2ER</p>
+                <p><a href="mailto:devlin@westonfc.co.uk">devlin@westonfc.co.uk</a></p>
+                <p><a href="tel:07818509257">078185 09257</a></p>
+            </div>
         </div>
     </div>
 </div>

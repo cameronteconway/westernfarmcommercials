@@ -2,6 +2,20 @@
 
 @section('content')
 
+<div class="container d-none d-lg-block contact-logo py-3">
+    <div class="row">
+        <div class="col-md-5">
+            <p class="nav-contact-detail email"><span>Email:</span> <a href="#">devlin@westonfc.co.uk</a></p>
+        </div>
+        <div class="col-md-2">
+            <a href="{{ url('/') }}"><img src="{{ asset('images/westernfc_logo.svg') }}" alt="Western Farm Commercials Logo"></a>
+        </div>
+        <div class="col-md-5">
+            <p class="nav-contact-detail call"><span>Telephone:</span> <a href="#">078185 09257</a></p>
+        </div>
+    </div>
+</div>
+
 <div class="container">
 
     <div class="row">
@@ -29,19 +43,19 @@
     </div>
 
     <div class="row mt-4">
-        <div class="col-6 col-md-3 mb-3">
+        <div class="col-12 col-sm-6  col-md-3 mb-3">
             <img class="services-images" src="{{ asset('images/services/service_1.jpeg') }}" alt="Van suspended above the ground for service to be carried out">
         </div>
 
-        <div class="col-6 col-md-3 mb-3">
+        <div class="col-12 col-sm-6  col-md-3 mb-3">
             <img class="services-images" src="{{ asset('images/services/service_2.jpeg') }}" alt="Team member servicing a vehicle">
         </div>
 
-        <div class="col-6 col-md-3 mb-3">
+        <div class="col-12 col-sm-6  col-md-3 mb-3">
             <img class="services-images" src="{{ asset('images/services/service_3.jpeg') }}" alt="Van suspended above the ground with bonnet open and front wheels removed">
         </div>
 
-        <div class="col-6 col-md-3 mb-3">
+        <div class="col-12 col-sm-6  col-md-3 mb-3">
             <img class="services-images" src="{{ asset('images/services/service_4.jpeg') }}" alt="Team member carrying out service under a lorry">
         </div>
     </div>
