@@ -31,7 +31,7 @@ Route::get('/about', function () {
     $meta = [];
     $meta['meta_title'] = "About Western Farm Commercials";
     $meta['meta_keywords'] = "western, farm, commercials, LGV, services, fleet maintenance, MOT, trailers, commercial vehicles, tractors, brake rolling, recovery";
-    $meta['meta_description'] = "";
+    $meta['meta_description'] = "Founded in October 2020, Western Farm Commercials was constructed to service a range of vehicles from cars through to HGV.";
 
     return view('pages.about')->with("meta", $meta);
 });
@@ -69,4 +69,10 @@ Route::get('/contact', function() {
     return view('pages.contact')->with("meta", $meta);
 });
 
+// Contact Form - Post Request
 Route::post('/contact', [ContactFormController::class, 'handleContactForm'])->name('contact.store');
+
+// Sitemap
+Route::get('/sitemap.xml', function() {
+    return response()->view('pages.sitemap')->header('Content-Type', 'text/xml');
+});

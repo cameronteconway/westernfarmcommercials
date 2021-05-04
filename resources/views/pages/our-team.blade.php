@@ -29,7 +29,7 @@
     <div class='row mt-4 our-team-cards'>
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="{{ asset('images/team/devlin.jpg') }}" alt="Workshop interior.">
+                <img class="card-img-top" src="{{ asset('images/team/devlin_opt.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
                     <span class="card-title">Devlin</span>
                     <p class="card-text">Workshop Manager</p>
@@ -38,7 +38,7 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="{{ asset('images/team/kieffer.jpg') }}" alt="Three employees infront of company van.">
+                <img class="card-img-top" src="{{ asset('images/team/kieffer_opt.jpg') }}" alt="Three employees infront of company van.">
                 <div class="card-body">
                     <span class="card-title">Kieffer</span>
                     <p class="card-text">Workshop Technician</p>
@@ -47,7 +47,7 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="{{ asset('images/team/ashley.jpg') }}" alt="Workshop interior.">
+                <img class="card-img-top" src="{{ asset('images/team/ashley_opt.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
                     <span class="card-title">Ashley</span>
                     <p class="card-text">Workshop Technician</p>
@@ -56,7 +56,7 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="{{ asset('images/team/daniel.jpg') }}" alt="Workshop interior.">
+                <img class="card-img-top" src="{{ asset('images/team/daniel_opt.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
                     <span class="card-title">Daniel</span>
                     <p class="card-text">Workshop Technician</p>
@@ -65,7 +65,7 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="{{ asset('images/team/marc.jpg') }}" alt="Workshop interior.">
+                <img class="card-img-top" src="{{ asset('images/team/marc_opt.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
                     <span class="card-title">Marc</span>
                     <p class="card-text">Workshop Technician</p>
@@ -74,7 +74,7 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="{{ asset('images/team/gary.jpg') }}" alt="Workshop interior.">
+                <img class="card-img-top" src="{{ asset('images/team/gary_opt.jpg') }}" alt="Workshop interior.">
                 <div class="card-body">
                     <span class="card-title">Gary</span>
                     <p class="card-text">Workshop Technician</p>

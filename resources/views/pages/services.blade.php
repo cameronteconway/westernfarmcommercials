@@ -44,19 +44,19 @@
 
     <div class="row mt-4">
         <div class="col-12 col-sm-6  col-md-3 mb-3">
-            <img class="services-images" src="{{ asset('images/services/service_1.jpeg') }}" alt="Van suspended above the ground for service to be carried out">
+            <img class="services-images" src="{{ asset('images/services/service_1_opt.jpg') }}" alt="Van suspended above the ground for service to be carried out">
         </div>
 
         <div class="col-12 col-sm-6  col-md-3 mb-3">
-            <img class="services-images" src="{{ asset('images/services/service_2.jpeg') }}" alt="Team member servicing a vehicle">
+            <img class="services-images" src="{{ asset('images/services/service_2_opt.jpg') }}" alt="Team member servicing a vehicle">
         </div>
 
         <div class="col-12 col-sm-6  col-md-3 mb-3">
-            <img class="services-images" src="{{ asset('images/services/service_3.jpeg') }}" alt="Van suspended above the ground with bonnet open and front wheels removed">
+            <img class="services-images" src="{{ asset('images/services/service_3_opt.jpg') }}" alt="Van suspended above the ground with bonnet open and front wheels removed">
         </div>
 
         <div class="col-12 col-sm-6  col-md-3 mb-3">
-            <img class="services-images" src="{{ asset('images/services/service_4.jpeg') }}" alt="Team member carrying out service under a lorry">
+            <img class="services-images" src="{{ asset('images/services/service_4_opt.jpg') }}" alt="Team member carrying out service under a lorry">
         </div>
     </div>
 </div>

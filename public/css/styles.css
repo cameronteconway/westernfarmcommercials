@@ -70,7 +70,8 @@ div.contact-logo .nav-contact-detail {
     text-decoration: none;
 }
 .contact-logo img {
-    height: 170px; width: auto;
+    height: 170px; 
+    width: auto;
     z-index: 2;
     position: relative;
     left: -95px;
@@ -178,6 +179,10 @@ nav .navbar-nav a:nth-last-child(1) {
     position: relative;
     font-size: 1rem;
 }
+.homepage-cards .card .card-body span {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
 .homepage-cards .card .card-body .card-title {
     color: var(--primary);
 }
@@ -277,14 +282,11 @@ nav .navbar-nav a:nth-last-child(1) {
 }
 
 
-
-
-
-/* Email */
-.email-template {
-    border: 5px solid red;
+/* About */
+#main .about-us-detail p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
 }
-
 
 
 /* Footer */

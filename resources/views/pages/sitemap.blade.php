@@ -1,0 +1,18 @@
+<?php echo '<?xml version="1.0" encoding="UTF-8"?>'; ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+    <url>
+        <loc>https://http://westernfc.co.uk/</loc>
+    </url>
+    <url>
+        <loc>https://http://westernfc.co.uk/about</loc>
+    </url>
+    <url>
+        <loc>https://http://westernfc.co.uk/our-team</loc>
+    </url>
+    <url>
+        <loc>https://http://westernfc.co.uk/services</loc>
+    </url>
+    <url>
+        <loc>https://http://westernfc.co.uk/contact</loc>
+    </url>
+</urlset>
